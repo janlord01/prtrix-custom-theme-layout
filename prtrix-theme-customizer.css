@@ -1,0 +1,30 @@
+:root{
+    --mwidth: 1400px;
+    --fbbb: clamp(25px, 5vw, 80px);
+    --fbb: clamp(18px, 5vw, 35px);
+    --fb: clamp(18px, 5vw, 25px);
+    --fs: 13px;
+    --paddh: clamp(5%, 2vw, 20px);
+    --paddv: clamp(20px, 4vw, 80px);
+    --colorm: #03035c;
+    --colors: #c92015;
+    --black: #222222;
+    --white: #fcfcfc;
+    --gray: #666666;
+    --grayl: #f5f5f5;
+}
+
+.full-width-item {
+    background: grey !important;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.full-width-item .insde-full{
+    /* padding: 20%; */
+    padding: 3% var(--paddh);
+}
+.clear-fullwidth{
+    margin-top: 300px;
+}
